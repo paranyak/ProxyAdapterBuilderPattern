@@ -9,5 +9,10 @@ public class TestAdapter {
         DataAdapter dtA =new DataAdapter();
         System.out.println("Class Adapter is returning y: "+dtA.getNiceY(1));
         System.out.println("Class Adapter is returning x: "+dtA.getPrettyX(5));
+
+        System.out.println("Object Adapter");
+        ObjectAdapter objA = new ObjectAdapter();
+        System.out.println("Object Adapter is returning y: " + objA.retY(3));
+        System.out.println("Object Adapter is returning x: " + objA.retX(2));
     }
 }
