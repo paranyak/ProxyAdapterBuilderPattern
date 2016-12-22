@@ -10,6 +10,10 @@ public class TestBuilder {
         this.builder = builder;
     }
 
+    /**
+     * Create builder (new computer) with following specifications
+     * @return String with information about computer
+     */
     public ComputerBuilder construct() {
         builder.setPower(4);
         builder.setColor("White");

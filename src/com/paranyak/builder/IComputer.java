@@ -8,5 +8,9 @@ interface IComputer {
 
     void setColor(final String color);
 
+    /**
+     *
+     * @return String which gives information about power and color of computer
+     */
     ComputerBuilder getResult();
 }

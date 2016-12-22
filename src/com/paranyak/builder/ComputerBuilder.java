@@ -16,19 +16,35 @@ public class ComputerBuilder{
         return "Computer: power = " + power + ", color = " + color + ")";
     }
 
+    /**
+     *
+     * @return power of computer
+     */
     public int getPower() {
         return power;
     }
 
+    /**
+     *
+     * @param power number
+     */
 
     public void setPower(final int power) {
         this.power = power;
     }
 
+    /**
+     *
+     * @return color of computer
+     */
     public String getColor() {
         return color;
     }
 
+    /**
+     *
+     * @param color String
+     */
     public void setColor(final String color) {
         this.color = color;
     }
